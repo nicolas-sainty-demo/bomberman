@@ -1,0 +1,7 @@
+set(SRC_DIRECTORY Src/)
+
+set(CORE_SRC
+    main.cpp
+    )
+
+list(TRANSFORM CORE_SRC PREPEND ${SRC_DIRECTORY})

@@ -1,0 +1,7 @@
+set(MENU_DIRECTORY Src/Menu/)
+
+set(MENU_SRC
+    
+    )
+
+list(TRANSFORM MENU_SRC PREPEND ${MENU_DIRECTORY})

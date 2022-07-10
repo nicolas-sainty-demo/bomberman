@@ -1,0 +1,7 @@
+set(PLAYER_DIRECTORY Src/Player/)
+
+set(PLAYER_SRC
+    players.cpp
+    )
+
+list(TRANSFORM PLAYER_SRC PREPEND ${PLAYER_DIRECTORY})

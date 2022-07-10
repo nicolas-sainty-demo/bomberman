@@ -1,0 +1,4 @@
+inheritance tree
+entity component system
+opengl
+must provide an encapsulation
